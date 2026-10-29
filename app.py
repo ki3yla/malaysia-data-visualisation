@@ -152,27 +152,29 @@ if page == "Overview":
     with col3:
         st.metric("Income years", "2019, 2022, 2024")
 
-    st.markdown("### Visualisation objectives")
+    st.markdown("### Research Objectives")
 
     st.markdown(
         """
-        **1. Household Income**
+        **Objective 1: To analyse patterns and distributions**
 
-        Examine changes in household median income across selected
-        percentiles and compare income differences between states
-        from 2019 to 2024.
+        To analyse patterns and distributions in Malaysia's
+        household income, prisoner and marriage statistics
+        using appropriate data visualisation techniques.
 
-        **2. Prisoners**
+        **Objective 2: To identify the highest and lowest values**
 
-        Analyse changes in the number of prisoners in Malaysia from
-        2017 to 2024 and compare their distribution across states
-        and sexes.
+        To identify the highest and lowest values, as well as
+        the most prominent states and demographic groups,
+        within Malaysia's household income, prisoner and
+        marriage statistics.
 
-        **3. Marriages**
+        **Objective 3: To develop interactive visualisations**
 
-        Identify age groups with the highest marriage counts and
-        rates, and examine annual changes in marriage records from
-        2017 to 2024.
+        To develop interactive visualisations that facilitate
+        the exploration, comparison and interpretation of
+        patterns and key findings across Malaysia's household
+        income, prisoner and marriage datasets.
         """
     )
 
